@@ -1,0 +1,267 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'Share Tech Mono', Monospace, Courier;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  background: #222;
+  color: #c8c8c8;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  color: #fff;
+  padding: 1rem;
+}
+/* 
+a:visited {
+  color:  #6f32a8;
+} */
+
+a {
+  color:  #c8c8c8;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #343434;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  height: 5vh;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+.nav-items li,
+.nav-items a {
+  color: #c8c8c8;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.nav-items li {
+  margin: 0 20px 0 0; /* Remove margin from the last navigation item */
+}
+
+.nav-logo {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  right: 0; /* Float the logo to the right */
+  display: flex; 
+  justify-content: flex-end;
+  align-items: center; /* Add align items center */
+}
+
+.nav-logo img {
+  height: 100%;
+  max-height: 100%;
+  width: auto;
+  float: right; /* Float the logo to the right */
+  /* margin: 0 20px; Add some margin to the left side of the logo */
+}
+
+.nav-logo li {
+  height: 100%;
+}
+
+ul{
+  padding: 10px;
+  padding-top: 0px;
+}
+
+#about{
+  width: 80vw;
+  margin: auto;
+}
+
+#flagship {
+  width: 100vw;
+}
+
+#flagship img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-card {
+  position: relative;
+}
+
+.project-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.project-card:hover img {
+  opacity: 1;
+  /* opacity: 0.3; */
+}
+
+.project-card:hover .overlay {
+  opacity: 1;
+}
+
+.project-card:hover p{
+  margin: auto;
+  width: 80%;
+}
+
+.project-card:hover h2 {
+  margin: auto;
+}
+
+
+@media screen and (max-width: 767px) {
+  #projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-card {
+    flex-basis: calc(100% - 20px);
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: dense;
+    grid-gap: 0px;
+  }
+
+  .project-card {
+    flex-basis: calc(50% - 20px);
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: dense; /* fill in gaps */
+    grid-gap: 0px;
+  }
+
+  .project-card {
+    margin: 0;
+  }
+}
+
+#intro{
+  text-align: center;
+  padding-top: 70px;
+}
+
+#about{
+  text-align: center;
+  }
+
+#flagship{
+  text-align: center;
+ }
+
+#wallpaper div {
+  width: 100vw;
+  overflow: hidden;
+  margin-top: 5vh;
+}
+
+.ascii {
+  color: white;
+  background: #222;
+  display: inline-block;
+  white-space: pre;
+  letter-spacing: 0;
+  font-size: 0.82vw; /* Adjust as needed */
+}
+
+@media (max-width: 600px) {
+  .ascii {
+    font-size: 0.8vw;
+  }
+}
+
+.subtitle{
+  text-align: center;
+}
+
+.content-container {
+  max-width: 1000px;
+  margin: 0 auto; /* Center content horizontally */
+  /* padding: 20px; Add padding as needed */
+}
+
+p img{
+  width: 100%;
+  height: auto;
+}
+
+/* Style for the project box */
+.project-box {
+  background-color: #292929; 
+  /* border: 1px solid #444444;  */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for the project box */
+.project-box:hover {
+  transform: translateY(-5px); /* Elevate on hover */
+  /* border: 1px solid #444444;  */
+}
