@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: engineerbear8000.github.io/sitemap.xml
+Sitemap: https://engineerbear8000.github.io/sitemap.xml
