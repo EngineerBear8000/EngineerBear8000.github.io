@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  {{ section.title }}
+</h1>
+<ul>
+  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
+  {% for page in section.pages %}
+  <li>
+    <a href="{{ page.permalink | safe }}">      
+      <div class="project-box">
+        <img src="placeholder" alt="placeholder pls add thumbnail" class="project-thumbnail">
+        <div class="project-content">
+            <h2 class="project-title">{{ page.title }}</h2>
+            <p class="project-description">{{ page.description }}</p>
+        </div>
+    </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock content %}
