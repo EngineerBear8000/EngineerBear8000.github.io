@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Ho Soon Yee</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blogs on Ho Soon Yee</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Dec 2024 11:49:22 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Electrical Engineer at Fabrica.AI</title>
+      <link>http://localhost:1313/blog/electrical-engineer-at-fabrica/</link>
+      <pubDate>Tue, 31 Dec 2024 11:49:22 +0800</pubDate>
+      <guid>http://localhost:1313/blog/electrical-engineer-at-fabrica/</guid>
+      <description>During my , I also participated in the planning for the next robot version V5. The primary purpose of V5 was to increase the modularity of the robot such that each module could be replaced without influencing other modules. This was done so as decouple the development of the modules such that incremental upgrades could be done instead of having to embark on a costly and risky full redesign every year.</description>
+    </item>
+    <item>
+      <title>Intern at Fabrica.AI</title>
+      <link>http://localhost:1313/blog/internship-at-fabrica/</link>
+      <pubDate>Thu, 31 Aug 2023 11:49:22 +0800</pubDate>
+      <guid>http://localhost:1313/blog/internship-at-fabrica/</guid>
+      <description>It was interesting and fun to intern at Fabrica. Being a small startup, work there was very fast paced. Since I did relatively well at the interview, many of the full timers also put more trust and responsibility on me. As such I was able to work on many interesting problems that pushed my knowledge and understanding further.&#xA;During my time there, I helped solve a couple of issues which helped increase the robot&amp;rsquo;s reliability that eventually allowed it to enter into consistent site deployment.</description>
+    </item>
+    <item>
+      <title>Peltier 3D Printer Bed</title>
+      <link>http://localhost:1313/blog/peltier/</link>
+      <pubDate>Sat, 01 Oct 2022 11:49:22 +0800</pubDate>
+      <guid>http://localhost:1313/blog/peltier/</guid>
+      <description>This was a small project I did for thermodynamics module in Y2 of Uni. The premise is simple, heated beds of printers need to be heated for optimal printing quality. To perform their function properly, they have to be constantly heated for long periods of time, however long the print is. This is compounded by the size of the heated bed or if it is used to heat the chamber as well.</description>
+    </item>
+    <item>
+      <title>SAFMC Category D1 2021</title>
+      <link>http://localhost:1313/blog/safmc2021/</link>
+      <pubDate>Mon, 01 Nov 2021 17:44:58 +0800</pubDate>
+      <guid>http://localhost:1313/blog/safmc2021/</guid>
+      <description>Where do I even start? Ive been taking part in SAFMC for 8 years at that point in time. Originally in Category C and after that in D1. I am personally very proud of this achievement as it brought together all of the knowledge and skills I have acquired in the years prior.&#xA;The challenge was similar to that we had been working on for the previous few years, with a couple of notable additions.</description>
+    </item>
+    <item>
+      <title>Split Wireless Keyboard</title>
+      <link>http://localhost:1313/blog/lowravell/</link>
+      <pubDate>Sun, 31 Jan 2021 16:03:17 +0800</pubDate>
+      <guid>http://localhost:1313/blog/lowravell/</guid>
+      <description>Awhile back I fell into the rabbit hole of mechanical keyboards and as it goes when I fall, I fall in DEEP. Fortunately, this was actually a blessing this time. The journey of most who catch the bug starts out with gaming keyboards which progress to mechanical keyboards. Then they might buy kits or keycaps and switches to make a custom keyboard. Still others design their own keyboards. Then there&amp;rsquo;s q further niche of ergonomic keyboards, starting with ortholinear keyboards, split keyboards and then split ortho column staggered keyboards.</description>
+    </item>
+  </channel>
+</rss>
