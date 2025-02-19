@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Peltier 3D Printer Bed on Ho Soon Yee</title>
-    <link>http://localhost:1313/blog/peltier/</link>
+    <link>https://hugo-profile.netlify.app/blog/peltier/</link>
     <description>Recent content in Peltier 3D Printer Bed on Ho Soon Yee</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/peltier/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hugo-profile.netlify.app/blog/peltier/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
