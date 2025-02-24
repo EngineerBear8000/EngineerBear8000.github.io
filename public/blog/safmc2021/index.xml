@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SAFMC Category D1 2021 on Ho Soon Yee</title>
-    <link>https://hugo-profile.netlify.app/blog/safmc2021/</link>
+    <link>/blog/safmc2021/</link>
     <description>Recent content in SAFMC Category D1 2021 on Ho Soon Yee</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://hugo-profile.netlify.app/blog/safmc2021/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/blog/safmc2021/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

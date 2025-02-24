@@ -139,7 +139,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/resume_2025.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -245,12 +245,12 @@ params:
       - title: Electrical Engineer at Fabrica.AI
         content: I took a LOA to take up a full time position offer while in Y3 of University.
         url: /blog/electrical-engineer-at-fabrica//
-        image: /achievment.jpg
+        image: /fabs_social.jpg
   
       - title: Singapore Amazing Flying Machine Competition
         content: Category Semi Autonomous. Design, build and fly a semi autonomous drone to play tic tac toe with beanbags 
         url: /blog/safmc2021/
-        image: /achievment.jpg
+        image: /safmc_poster.png
   
 
   # projects
